@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Start of nav section styles */
+
+body {
+    background-color: #E5E5E5;
+    font-family: 'Poppins';
+    font-style: normal;
+    width: 1350px;
+}
+
+.container {
+    width: 1350px;
+    background-color: cyan;
+    position: fixed;
+}
+
+.site-nav {
+    display: flex;
+    justify-content: space-around;
+}
+a {
+    text-decoration: none;
+}
+
+.site-nav__logo {
+    padding-top: 57px;
+    padding-left: 129px;
+    font-weight: normal;
+    font-size: 36px;
+}
+.site-nav__list {
+    list-style-type: none;
+    display: flex;
+    padding-top: 71px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #263238;
+}
+
+.nav-link {
+    margin-left: 20px;
+}
+.site-nav__link {
+    font-weight: normal;
+    font-size: 24px;
+    color: #000;    
+    /* border: 2px solid #263238; */
+    border-radius: 5px;
+    padding: 12px 24px;
+    border: 2px solid #263238;
+}
+.nav-link__pricing {
+    margin-left: 45px;
+}
+/* End of nav section styles */
+
+/* Start of home page section styles */
+
+
+.home-page {
+    padding-top: 70px;
+    padding-left: 129px;
+    
+}
+h1 {
+    font-size: 64px;
+    font-weight: 600;
+    font-style: normal;
+    width: 327px;
+    height: 240px;
+    line-height: 80px;
+}
+.home-page>p {
+    font-weight: normal;
+    font-size: 24px;
+    width: 500px;
+    height: 108px;
+    padding-top: 25px;
+    margin-bottom: 70px;
+}
+.home-page_link {
+    font-weight: 400;
+    font-size: 26px;
+    color: #fff;
+    padding: 24px 118px;
+    background: #263238;
+    border-radius: 15px;
+}
+
+.home-page_icon {
+    position: absolute;
+    left: 605.99px;
+    top: 318px;
+}
+
+.home-page__image {
+    position: absolute;
+    left: 687px;
+    top: 76px;
+}
+/* End of home page section styles */
+/* Start of Skills section styles */
+
+.Skills {
+    margin: 147px 133px 100px 60px;
+}
+
+.skills-card {
+    display: flex;
+    text-decoration: none;
+}
+.Skills>h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.Speaking-card {
+    width: 350px;
+    height: 767px;
+    padding: 80px 45px 90px 43px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    margin-right: 15px;
+
+}   
+
+.Speaking-card_list {
+    list-style-type: none;
+}
+
+.Speaking-hero {
+    font-size: 30px;
+    font-weight: 600;
+    color: #263238;
+    padding-bottom: 20px;
+}
+
+.Speaking-text {
+    font-size: 16px;
+    color: #8F95A5;
+    padding-bottom: 35px;
+}
+
+.Speaking-text2 {
+    font-size: 16px;
+    color: #8F95A5;
+    margin-bottom: 65px;
+}
+
+.Speaking-link {
+    border: 1px #263238 solid;
+    padding: 27px 103px;
+    background: #263238;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    
+}
+.order-card {
+    display: flex;
+}
+
+.writing-card {
+    width: 350px;
+    height: 531px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    padding-left: 42px;
+    margin-right: 15px;
+}
+.writing-card_list {
+    list-style-type: none;
+}
+
+.writing-hero {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.writing-text {
+    font-size: 16px;
+    color: #8F95A5;
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+
+.writing-link {
+    border: 1px #263238 solid;
+    padding: 12px 24px;
+    background: #263238;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;    
+}
+
+.Reading-card {
+    width: 350px;
+    height: 531px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    padding-left: 42px;
+}
+.Reading-card_list {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.Reading-hero {
+    font-size: 30px;
+    margin: 45px 0 10px 0 ;
+}
+
+.Reading-text {
+    font-size: 16px;
+    color: #8F95A5;
+    margin-bottom: 40px;
+}
+
+.Reading-link {
+    border: 1px #263238 solid;
+    padding: 12px 24px;
+    background: #263238;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.Listening-card {
+    width: 756px;
+    height: 343px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    display: flex;
+    padding: 43px 0 0 42px;
+    margin-top: 20px;
+}
+
+.Listening-card_list {
+    list-style-type: none;
+}
+
+.Listening-hero {
+    font-size: 30px;
+    padding-top: 43px;
+}
+
+.Listening-text {
+    margin: 15px 15px 35px 0;
+    font-size: 16px;
+    color: #8F95A5;
+}
+
+.Listening-link {
+    border: 1px #263238 solid;
+    padding: 12px 24px;
+    background: #263238;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+/* End of Skills section styles */
+/* Start of About Us section styles */
+
+.About {
+    display: flex;
+    padding: 100px 140px 100px 131px;
+}
+
+.About-text_list {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.About-text_head {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.About-text_model {
+    font-size: 20px;
+    color: #8F95A5;
+    margin: 30px auto;
+}
+
+.users {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.points {
+    list-style-type: none;
+    color: #8F95A5;
+}
+
+.points-num {
+    font-size: 48px;
+    font-weight: 600;
+    color: #2A3246;
+}
+
+.About-img {
+    margin-left: 60px
+}
+/* End of About Us section styles */
+
+/* Start of Pricing section styles*/
+
+.Pricing {
+    padding-left: 130px;
+}
+
+.Pricing-box {
+    display: flex;
+}
+.Pricing>h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 50px;
+}
+.pricing-card {
+    width: 400px;
+}
+.pricing-card_h3 {
+    font-weight: 600;
+    font-size: 30px;
+    color: #263238;
+    margin: 20px auto;
+}
+
+.pricing-card_text {
+    font-weight: normal;
+    font-size: 20px;
+    color: #8F95A5;
+    margin-bottom: 25px;
+}
+
+.pricing-link {
+    border: 1px #263238 solid;
+    border-radius: 5px;
+    background: #EEEEEE;
+    padding: 10px 45px;
+}
+.pricing-img {
+    padding: 36px 20px;
+}
+
+.classes-card_text {
+    font-weight: normal;
+    font-size: 20px;
+    color: #8F95A5;
+    margin-bottom: 56px;
+}
+
+.personal-card_h3 {
+    font-weight: 600;
+    font-size: 30px;
+    color: #263238;
+    margin: -10px 0 20px 0;
+}
+
+.tutorial-card_text {
+    font-weight: normal;
+    font-size: 20px;
+    color: #8F95A5;
+    margin-bottom: 56px;
+}
